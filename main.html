@@ -8,9 +8,58 @@
 
 <body>
 	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+    <script type="text/javascript" src="./script.js"></script>
 
+	<form action="#" method="post"> 
+
+		<h1>Car Insurance Form</h1>
+		
+		<div>
+			<label for="name">Name*</label>
+			<input type="text" name="name" id="name" required>
+		</div> <br>
+
+		<div>
+			<label for="email">Email*</label>
+			<input type="email" name="email" id="email" required>
+		</div> <br>
+
+		<div>
+			<label for="gender">Gender*</label>
+			<input type="radio" name="gender" id="gender" required>Male
+			<input type="radio" name="gender" id="gender" required>Female
+		</div> <br>
+
+		<div>
+			<label for="cars">Car Brands*</label>
+			<select name="cars" id="cars" required>
+				<option value="select" disabled selected>--Please choose an option--</option>
+				<option value="bmw">BMW</option>
+				<option value="audi">Audi</option>
+				<option value="mercedez">Mercedez</option>
+			</select>
+		</div> <br>
+		
+		<div>
+			<label for="carage">Car Age*</label>
+			<input type="number" name="carage" id="carage" required>
+		</div> <br>
+
+		<div>
+			<label for="dop">Date of Purchase(dop)*</label>
+			<input type="date" name="dop" id="dop" required>
+		</div> <br>
+
+		<div>
+			<label for="password">Password*</label>
+			<input type="password" name="password" id="password" required>
+		</div>
+				
+		<div>
+			<button type="submit">Submit</button>
+		</div> <br>
+		
+	</form>
 </body>
 
 </html>
